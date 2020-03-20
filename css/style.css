@@ -22,9 +22,6 @@ footer{
     height: 5em;
     background-color: #707070;
 }
-.icons p{
-    justify-content: center;
-}
 /*TELA DE CADASTRO*/
 .titulo_pagina{
     width: 100%;
@@ -50,3 +47,5 @@ footer{
     margin-bottom: 3em;
     padding: 1.5em;
 }
+
+/* TELA DE ESTOQUE */
