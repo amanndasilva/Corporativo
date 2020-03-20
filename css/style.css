@@ -439,14 +439,6 @@ footer .icons{
             }
 
         /* pagina de ranking */
-        {
-            margin: 0;
-            padding: 0;
-        }
-        :root{ 
-        
-        
-        } 
         .ranking{
             padding: 10px 10px;
             display: flex;
