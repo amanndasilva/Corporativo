@@ -1,443 +1,583 @@
 *{
 
     margin: 0;
-
     padding: 0;
 
 }
 
  
 
-    :root{
+:root{
 
-        --fundo:linear-gradient(#8791B8,#B2B0B0)
+    --fundo:linear-gradient(#8791B8,#B2B0B0)
 
-    }
+}
+.container{
 
-    .container{
+    max-width: 350px;
 
-        max-width: 350px;
+    width: 80%; 
 
-        width: 80%;
+    margin: 0 auto; 
 
-        margin: 0 auto; 
+    align-items: center;   
 
-        align-items: center;   
+    filter: drop-shadow( );
 
-        filter: drop-shadow( );
+}
 
-    }
+.center{
 
-    .center{
+    display: flex;
 
-        display: flex;
+    align-items: center;
 
-        align-items: center;
+    flex-direction: column;
 
-        flex-direction: column;
+}
 
-    }
+header{
 
-    header{
+    background-color: rgb(168, 174, 199);
 
-        background-color: rgb(168, 174, 199);
+}
 
-    }
+header h1{
 
-    header h1{
+    border-width: 5px;
 
-        border-width: 5px;
+    border: solid rgb(87, 87, 87);
 
-        border: solid rgb(87, 87, 87);
+    width: 8em;
 
-        width: 8em;
+    font-size: 1em;
 
-        font-size: 1em;
+    text-align: center;
 
-        text-align: center;
+    background-color: rgb(87, 87, 87);
 
-        background-color: rgb(87, 87, 87);
+    border-radius: 7px;
 
-        border-radius: 7px;
+    color: white;
 
-        color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-    }
+header img{
 
-    header img{
-
-        width: 15%;
-
-      
-
-    }
-
-  
-
- 
+    width: 15%;
 
     
 
-    .container{
+}
 
-        width: 80%;
 
-        max-width: 80%;
 
-        margin: 0 auto;
 
-        display: flex;
 
-        justify-content: space-between;
 
-    }
 
-    img{
+.container{
 
-        width: 100%;
+    width: 80%;
 
-        position: relative;
+    max-width: 80%;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.banner{
+
+    width: 100%;
+
+    position: relative;
+
+
+
+}
+
+main{
+
+    background: var(--fundo);
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    height: 900px;
 
     
 
-    }
+
+
+
+
+}
+
+.informacoes{
+
+    width: 60%;
+
+    height: auto;
+
+    padding: 29px 15px;
+
+    background-color: #B4AAAA;
+
+}
+
+/* caixa de cadastro  */
+
+form{
+
+    width: 75px;
+
+    height: 30px;
+
+    justify-content: center;
+
+    border-radius: 10px;
+
+    
+
+}
+
+.cadastro{
+
+    
+
+    display: flex; 
+
+    justify-content: center;  
+
+    height: 190px;
+
+    border-radius: 20px;
+
+    position: relative;
+
+    top: -100px;
+
+    left: 35px;
+
+    background-color:#666666;
+
+    width: 275px;
+
+    margin-left: 40px;
+
+}
+
+form input  {
+
+    border-style:none;
+
+    box-shadow: 0 0 0 0;
+
+    border: 0 none;
+
+    outline: 0;
+
+}
+
+form button{
+
+    border-style:none;
+
+    box-shadow: 0 0 0 0;
+
+    border: 0 none;
+
+    outline: 0;
+
+}
+
+.cadastro .campo{
+
+    margin-left: -100px;
+
+}
+
+.campo{
+
+    
+
+    display: flex;
+
+    
+
+    
+
+    padding: 20px 20px;
+
+    
+
+}
+
+input{
+
+    height: 25px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    font-size: 16px;
+
+
+
+    display: flex;
+
+    border-radius: 10px;
+
+    
+
+
+
+} button{
+
+    border:none;
+
+    width: 100px; 
+
+
+
+    padding: 5px 5px;
+
+    background: red;
+
+    border-radius: 10px;
+
+    
+
+    
+
+}
+
+.cadastro button{
+
+
+
+    align-content: center;
+
+    justify-content: center; 
+
+    
+
+}
+
+label{
+
+        padding: 6px 3px; 
+
+}
+
+    .cadastro button{
+
+    padding: 5px 5px;
+
+}
+
+.paragrafo2{
+
+    position: relative;
+
+    top: -150px;
+
+    left: 50px;
+
+    font-weight: 500    ;
+
+    color:white;
+
+    display: flex;
+
+    justify-content: center;
+
+    font-size: 14px;
+
+    width: 275px;
+
+    margin-left: 40px   ;
+
+    white-space: nowrap;
+
+    
+
+
+
+}
+
+/* footer  */
+
+footer{
+
+
+
+    background-color: rgb(87, 87, 87);
+
+    flex-direction: column;
+
+    box-shadow: 0 0 0 10px(black);
+
+}
+
+footer i{
+
+    padding: 1em;
+
+}
+
+footer .pa{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    color:rgb(15, 15, 15);
+
+    margin-bottom: 0.2em;
+
+}
+
+footer .icons{
+
+    font-size: 2em;
+
+    display: flex;
+
+    flex-direction: row;
+
+}
+
+
+
+.teste{
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+
+@media(min-width:769px){
 
     main{
 
-        background: var(--fundo);
-
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-        height: 900px;
-
-        
-
-    
-
-    
-
-    }
-
-    .informacoes{
-
-        width: 60%;
-
-        height: auto;
-
-        padding: 29px 15px;
-
-        background-color: #B4AAAA;
-
-    }
-
-    /* caixa de cadastro  */
-
-    form{
-
-        width: 75px;
-
-        height: 30px;
-
-        justify-content: center;
-
-        border-radius: 10px;
-
-       
+        height: 1000px;
 
     }
 
     .cadastro{
 
-        
+        margin-left: 25%;
 
-       display: flex; 
-
-       justify-content: center;  
-
-       height: 190px;
-
-        border-radius: 20px;
-
-        position: relative;
-
-        top: -100px;
-
-        left: 35px;
-
-        background-color:#666666;
-
-        width: 275px;
-
-        margin-left: 40px;
-
-    }
-
-    form input  {
-
-        border-style:none;
-
-        box-shadow: 0 0 0 0;
-
-        border: 0 none;
-
-        outline: 0;
-
-    }
-
-    form button{
-
-        border-style:none;
-
-        box-shadow: 0 0 0 0;
-
-        border: 0 none;
-
-        outline: 0;
-
-    }
-
-    .cadastro .campo{
-
-        margin-left: -100px;
-
-    }
-
-    .campo{
-
-        
-
-        display: flex;
-
-      
-
-        
-
-        padding: 20px 20px;
-
-       
-
-    }
-
-    input{
-
-        height: 25px;
-
-        display: flex;
-
-        justify-content: space-between;
-
-        font-size: 16px;
-
- 
-
-        display: flex;
-
-        border-radius: 10px;
-
-        
-
-    
-
-    } button{
-
-        border:none;
-
-        width: 100px; 
-
- 
-
-        padding: 5px 5px;
-
-        background: red;
-
-        border-radius: 10px;
-
-      
-
-        
-
-    }
-
-    .cadastro button{
-
- 
-
-     align-content: center;
-
-       justify-content: center; 
-
-        
-
-    }
-
-    label{
-
-         padding: 6px 3px; 
-
-    }
-
-      .cadastro button{
-
-        padding: 5px 5px;
+        top: -110px;
 
     }
 
     .paragrafo2{
 
-        position: relative;
+        top: -310px;
 
-        top: -150px;
+        margin-left: 185px; 
 
-        left: 50px;
 
-        font-weight: 500    ;
+
+        font-size: 25px; 
 
         color:white;
 
-        display: flex;
-
-        justify-content: center;
-
-        font-size: 14px;
-
-        width: 275px;
-
-        margin-left: 40px   ;
+        font-weight:bold;
 
         white-space: nowrap;
 
+    }
+
+    
+
         
 
-    
-
     }
 
-    /* footer  */
+        @media(min-width:1201px){
 
-    footer{
+            main{
 
- 
+                height: 1300px;
 
-        background-color: rgb(87, 87, 87);
+            }
 
-        flex-direction: column;
+            
 
-        box-shadow: 0 0 0 10px(black);
+            .cadastro{
 
-    }
+                top: -110px; 
 
-    footer i{
+                margin-left: 35%;
 
-        padding: 1em;
+            }
 
-    }
-
-    footer .pa{
-
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-        color:rgb(15, 15, 15);
-
-        margin-bottom: 0.2em;
-
-    }
-
-    footer .icons{
-
-        font-size: 2em;
-
-        display: flex;
-
-        flex-direction: row;
-
-    }
-
-    
-
-    .teste{
-
-        display: flex;
-
-        flex-direction: column;
-
-        align-items: center;
-
-        justify-content: center;
-
-    }
-
- 
-
-    @media(min-width:769px){
-
-        main{
-
-            height: 1000px;
-
-        }
-
-        .cadastro{
-
-            margin-left: 25%;
-
-            top: -110px;
-
-        }
-
-        .paragrafo2{
-
-            top: -310px;
-
-            margin-left: 185px; 
-
- 
-
-            font-size: 25px; 
-
-            color:white;
-
-            font-weight:bold;
-
-            white-space: nowrap;
-
-        }
-
-      
-
-         
-
-        }
-
-            @media(min-width:1201px){
-
-                main{
-
-                    height: 1300px;
-
-                }
+            .paragrafo2{
 
                 
 
-              .cadastro{
+                margin-left: 36%;
 
-                  top: -110px; 
+                font-size: 25px;
 
-                  margin-left: 35%;
-
-              }
-
-              .paragrafo2{
-
-                  
-
-                  margin-left: 36%;
-
-                  font-size: 25px;
-
-                  white-space: nowrap;
-
-              }
+                white-space: nowrap;
 
             }
+
+        }
+        /* pagina de ranking */
+        {
+            margin: 0;
+            padding: 0;
+        }
+        :root{ 
+        
+        
+        } 
+        .ranking{
+            padding: 10px 10px;
+            display: flex;
+            height: auto;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: linear-gradient(to bottom, white, purple);
+        }
+        nav{
+            width: 35%;
+            display: flex;
+        }
+        li{
+            width:100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color:#777676;
+            margin-top: 10px;
+        }
+        li a{
+            margin: 50% 0 50% 0;
+        }
+    
+        a{
+            
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+        }
+        i{
+            list-style-type: none;
+        }
+        a .sas{
+            align-items: flex-start;
+            font-size: 14px;
+            padding: 0 2%;
+        }
+        
+        a i {
+            margin-left: 20%;
+        }
+
+        
+         rodape  
+        footer{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(27, 26, 26);
+            flex-direction: column;
+        }
+        footer i{
+            padding: 1em;
+        }
+        footer p{
+            color: rgb(14, 13, 13);
+            margin-bottom: 0.2em;
+            display: flex;
+            justify-content: center;
+        }
+        footer .icons{
+            font-size: 2em;
+        } */
+        .ranking{
+            display: flex;
+        }*/
+        section{
+            margin-top: 100px;
+            padding: 20px 20px;
+        }
+        .estrutura-do-ranking h2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 50px;
+            padding: 10px 10px;
+            border-radius: 15px;
+            background-color: #777676;
+            margin-bottom: 40px;
+            margin-top: 5px;
+        }
+        section img{
+             width: 40%; 
+        }
+        .posicao1{
+            display: flex;
+            justify-content: flex-start;
+        }
+        .posicao2{
+            margin-top:30px ;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center;
+        }
+        .posicao3{
+         margin-top:30px ; 
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: flex-end;
+        }
+        @media(min-width:769px){ 
+            footer .icons{
+                display: flex;
+                justify-content: center;
+            }
+            .estrutura-do-ranking{
+                width: 55%;
+            }
+            li{
+                padding: 35%;
+            }
+        
+        }
+        @media(min-width:1201px){
+            .menu1201{
+                width: 200px;
+            }
+            a{
+                font-size: 30px;
+            }
+            a .sas{
+                font-size: 20px;
+            }
+               
+            }
+            
+            
+
+        }
+        
